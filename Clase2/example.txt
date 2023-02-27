@@ -1,6 +1,5 @@
 Hola Mundo!
 <<<<<<< HEAD
 Hago un comentario desde el propio archivo de mi repositorio local.
-=======
 Este comentario lo estoy realizando desde Github.
 >>>>>>> 1d96e9f45f73301577a5b347916c3c31afc08f5d
