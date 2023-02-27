@@ -1,4 +1,3 @@
 Hola Mundo!
-<<<<<<< HEAD
 Hago un comentario desde el propio archivo de mi repositorio local.
 Este comentario lo estoy realizando desde Github.
