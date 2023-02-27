@@ -1,3 +1,8 @@
 Hola Mundo!
 Hago un comentario desde el propio archivo de mi repositorio local.
 Este comentario lo estoy realizando desde Github.
+
+Respuestas
+3. El archivo no está en el repositorio remoto debido a que aún no ejecuté el comando necesario para hacerlo. De momento, los cambios fueron guardados en el repositorio local.
+5. El archivo en mi repositorio local no es modificado ya que el cambio se realizó en el repositorio remoto. Para ver los cambios en el local debo hacer un pull para traer todos los cambios realizados.
+8. Luego de haber modificado primero desde github y luego en mi repositorio local, si intento hacer un push sin realizar previamente un pull me rechazará dicho push. Lo que debo hacer es primero, como mencioné anteriormente, hacer un pull y luego el push. En caso de haber conflicto, resolverlo (suelen aparecer cuando se modifica un mismo archivo).
