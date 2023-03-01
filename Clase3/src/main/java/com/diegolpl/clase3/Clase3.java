@@ -3,6 +3,7 @@ package com.diegolpl.clase3;
 import com.diegolpl.clase3.ejercicio1.ContarLetras;
 import com.diegolpl.clase3.ejercicio1.OrdenarNumeros;
 import com.diegolpl.clase3.ejercicio1.SumarVector;
+import com.diegolpl.clase3.ejercicio2.CodificadorDeTexto;
 import java.util.Arrays;
 
 /**
@@ -34,5 +35,22 @@ public class Clase3 {
         int[] vector = {4,5,2,6,1};
         SumarVector sumadorDeVector = new SumarVector(vector,4);
         System.out.println(sumadorDeVector.sumarValores());
+        
+    /*  2) Genere una clase que tenga los métodos para realizar la codificación y decodificación de un string, 
+        dado un número de desplazamiento.
+        
+        Por ejemplo, con desplazo de 1: "hola que tal” -> “ipmbarvfaubm” siendo que h -> i
+        Por ejemplo, con desplazo de 2: "hola que tal” -> “jqncbswgbvcn” siendo que h -> j
+        
+        En el ejemplo estoy usando este abecedario: "abcdefghijklmnñopqrstuvwxyz "
+        
+        Para este ejercicio puede usar todos los métodos de String, tanto de instancia (por ejemplo length) 
+        como de clase, por ejemplo String.valueOf(arr) # donde arr es un char[]. 
+        Tenga a mano los javadocs del mismo
+
+    */
+    
+        CodificadorDeTexto codificador = new CodificadorDeTexto("hola que tal", 1);
+        System.out.println(codificador.codificarTexto());
     }
 }
