@@ -2,6 +2,7 @@ package com.diegolpl.clase3;
 
 import com.diegolpl.clase3.ejercicio1.ContarLetras;
 import com.diegolpl.clase3.ejercicio1.OrdenarNumeros;
+import com.diegolpl.clase3.ejercicio1.SumarVector;
 import java.util.Arrays;
 
 /**
@@ -30,6 +31,8 @@ public class Clase3 {
         System.out.println(Arrays.toString(ordenadorDeNumeros.ordenarLosNumeros())); 
         
         //1.c
-        
+        int[] vector = {4,5,2,6,1};
+        SumarVector sumadorDeVector = new SumarVector(vector,4);
+        System.out.println(sumadorDeVector.sumarValores());
     }
 }
