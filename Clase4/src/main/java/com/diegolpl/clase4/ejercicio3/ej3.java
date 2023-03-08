@@ -26,19 +26,25 @@ public class ej3 {
         Path archivo_entrada = Paths.get("C:\\Users\\d13g0\\OneDrive\\Escritorio\\Carpetas - Estudio\\AP - Intro JAVA - UTN\\AP-java\\Clase4\\src\\main\\java\\com\\diegolpl\\clase4\\ejercicio3\\texto_entrada.txt");
         Path archivo_salida = Paths.get("C:\\Users\\d13g0\\OneDrive\\Escritorio\\Carpetas - Estudio\\AP - Intro JAVA - UTN\\AP-java\\Clase4\\src\\main\\java\\com\\diegolpl\\clase4\\ejercicio3\\texto_salida.txt");
         
+        String texto = "";
+        
         if(operacion == 'c'){
             
             for(String linea : Files.readAllLines(archivo_entrada)){
-                Files.writeString(archivo_salida, codificarTexto(linea, valor_desplazamiento));
+                texto += codificarTexto(linea, valor_desplazamiento) + "\n";
             }
+            
+            Files.writeString(archivo_salida, texto);
             
             System.out.println("Listo! Texto codificado!");
             
         }else if(operacion == 'd'){
             
             for(String linea : Files.readAllLines(archivo_entrada)){
-                Files.writeString(archivo_salida, decodificarTexto(linea, valor_desplazamiento));
+                texto += decodificarTexto(linea, valor_desplazamiento) + "\n";
             }
+            
+            Files.writeString(archivo_salida, texto);
             
             System.out.println("Listo! Texto decodificado!");
         }else{
