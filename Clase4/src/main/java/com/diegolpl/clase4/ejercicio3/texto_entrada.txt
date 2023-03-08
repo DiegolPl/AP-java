@@ -1,0 +1,2 @@
+Este es un texto que yo quiero codificar o decodificar a gusto.
+Esta linea tambien deberia estar codificada o decodificada a gusto.
